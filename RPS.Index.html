@@ -9,6 +9,17 @@
       // Creates an array that lists out all of the options (Rock, Paper, or Scissors).
       var computerChoices = ["r", "p", "s"];
       var userGuess = ["r", "p", "s"]
+
+      var Selections = ["Rock", "Paper", "Scissors"];
+  var humanGuess = getRadioValue();
+  var computerGuess = Math.random();
+if (computerChoice < 0.34) {
+    computerChoice = "r";
+} else if(computerChoice <= 0.67) {
+    computerChoice = "p";
+} else {
+    computerChoice = "s";
+}
       // Creating variables to hold the number of wins, losses, and ties. They start at 0.
       var wins = 0;
       var losses = 0;
